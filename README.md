@@ -16,8 +16,11 @@ Digitei o que foi sugerido ‘bundle lock –add-platform x86-mingw32 x86mswin32
 Ele retornou:
             
 'Fetching gem metadata from https://rubygems.org/............
+
  Fetching gem metadata from https://rubygems.org/.
+ 
  Resolving dependencies...
+ 
  Writing lockfile to /home/ftb_oy/Desktop/ExampleFolder/example/Gemfile.lock’
 
 Pelo visto sem nenhum problema.
@@ -30,9 +33,13 @@ O primeiro parágrafo em amarelo é o mesmo erro que o primeiro, então já foi 
 E retorna:
 
 Successfully installed bundler-2.1.4
+
 Parsing documentation for bundler-2.1.4
+
 Done installing documentation for bundler after 1 seconds
+
 ERROR:  Could not find a valid gem '2.1.4' (>= 0) in any repository
+
 1 gem installed
 
 Pesquisei no StackOverflow e tentei ‘gem install bundler https://rubygems.org/gems/bundler/versions/2.1.4’ mas deu o mesmo ‘could not find a valid gem [...]’
