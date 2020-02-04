@@ -32,7 +32,7 @@ Próximo erro:
 O primeiro parágrafo em amarelo é o mesmo erro que o primeiro, então já foi resolvido. Depois diz que a versão do Bundler é antiga. Eu digito o que sugeriu: ‘gem install bundler:2.1.4’
 E retorna:
 
-Successfully installed bundler-2.1.4
+'Successfully installed bundler-2.1.4
 
 Parsing documentation for bundler-2.1.4
 
@@ -40,6 +40,6 @@ Done installing documentation for bundler after 1 seconds
 
 ERROR:  Could not find a valid gem '2.1.4' (>= 0) in any repository
 
-1 gem installed
+1 gem installed'
 
 Pesquisei no StackOverflow e tentei ‘gem install bundler https://rubygems.org/gems/bundler/versions/2.1.4’ mas deu o mesmo ‘could not find a valid gem [...]’
